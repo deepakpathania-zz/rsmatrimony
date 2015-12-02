@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>No. 1 Maheshwari Matrimonial, Matrimony Site- www.maheshwari.org</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/zabuto_calendar.css">
+    <link rel="stylesheet" type="text/css" href="assets/js/gritter/css/jquery.gritter.css" />
+    <link rel="stylesheet" type="text/css" href="assets/lineicons/style.css">    
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
+
+    <script src="assets/js/chart-master/Chart.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="index.html" class = "logo "><b>MAHESHWARI.org</b></a>
+            <!--logo end-->
+            <div class="top-menu" style = "margin-top : 20px">
+            	<ul class="nav pull-right top-menu">
+                      <form class="form-inline" role="form">
+                          <div class="form-group" >
+                              <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+                          </div>
+                          <div class="form-group">
+                              <label class="sr-only" for="exampleInputPassword2">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                          </div>
+                          <button type="submit" class="btn btn-theme">Sign in</button>
+                         <input type="text" name="id" class="form-control" placeholder="Search By Name/ID" />
+                                    <button type = "submit" class = "btn btn-theme">Go</button>
+                      </form>
+               
+              
+          
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+              
+              	  	
+                  <li class="mt">
+                      <a class="active" href="http://maheshwari.org/user/main.aspx">
+                          <i class="fa fa-dashboard"></i>
+                          <span>Home</span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="http://maheshwari.org/user/register.aspx" >
+                          <i class="fa fa-desktop"></i>
+                          <span>Register</span>
+                      </a>
+                     
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-cogs"></i>
+                          <span>Search</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="#">Basic</a></li>
+                          <li><a  href="#">Advanced</a></li>
+                          <li><a  href="#">City</a></li>
+                          <li><a href ="#">Top Searches</a>
+                          <ul class = "sub">
+                          <li> <a href="http://maheshwari.org/user/link.aspx?col=manglik&status=yes&u=9">Manglik</a>
+                                    <li><a href="http://maheshwari.org/user/link.aspx?col=marstatus&status=_unmarried&u=0">Divorcee/Widow</a></li>
+                                    <li><a href="http://maheshwari.org/user/link.aspx?col=country&status=_india&u=1">NRI</a></li>
+                      </ul>
+                      
+                      <li class = "sub-menu"> <a href ="#">Search by Education</a>
+                      <ul class="sub">
+                      <li><a href="http://maheshwari.org/user/link.aspx?col=education&status=d&u=2">Doctors</a></li>
+                                    <li><a href="http://maheshwari.org/user/link.aspx?col=education&status=e&u=3">Engineers</a></li>
+                                    <li><a href="http://maheshwari.org/user/link.aspx?col=education&status=m&u=4">MBA, MCA</a></li>
+                                    <li><a href="http://maheshwari.org/user/link.aspx?col=education&status=p&u=5">CA, CS, ICWA</a></li>
+                  </ul>
+                  </li>
+                   <li class = "sub-menu"> <a href ="#">Search by Occupation</a>
+                   <ul class="sub">
+                    <li><a href="http://maheshwari.org/user/link.aspx?col=pstatus&status=service&u=6">Service</a></li>
+                                    <li><a href="http://maheshwari.org/user/link.aspx?col=pstatus&status=business&u=8">Business</a></li>
+                                    <li><a href="http://maheshwari.org/user/link.aspx?col=pstatus&status=profession&u=7">Profession</a></li>
+                    </ul>
+                  
+                  </ul>
+                  
+                  <li class="sub-menu">
+                      <a href="http://maheshwari.org/user/payment-options.aspx" >
+                          <i class="fa fa-book"></i>
+                          <span>Membership</span>
+                      </a>
+                     
+                  </li>
+               
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-th"></i>
+                          <span>Help</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="http://maheshwari.org/user/contact.aspx">Contact Us</a></li>
+                          <li><a  href="http://maheshwari.org/user/feedback.aspx">Feedback</a></li>
+                      </ul>
+                  </li>
+                
+
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+
+              <div class="row">
+                  <div class="col-lg-9 main-chart">
+                  
+                  	<div class="row mtbox">
+                  		<div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                  			<div class="white-header">
+                    <h5>Nitesh Dammani</h5>
+                            </div>
+                        <div class="box1">
+                  <span class="li_heart"></span>
+                  <a href = "#"><h3>Status</h3></a>
+                        </div>
+                  <p>Unmarried</p>
+                      </div>                  	
+                      
+                  		<div class="col-md-2 col-sm-2 box0">
+                  			<div class="box1">
+					  			<span class="li_cloud"></span>
+					  			<a href = ""><h3>Details</h3></a>
+                  			</div>
+					  			<p>Age : 26 <br/>Height : 6'<br/> Manglik : Yes <br/> Education : MBA <br/>Hometown : Delhi <br/> </p>
+                  		</div>
+                  		<div class="col-md-2 col-sm-2 box0">
+                  			<div class="box1">
+					  			<span class="li_stack"></span>
+					  			<a href = ""><h3>Last Online</h3></a>
+                  			</div>
+					  			<p>2 December, 2015</p>
+                  		</div>
+                  		<div class="col-md-2 col-sm-2 box0">
+                  			<div class="box1">
+					  			<span class="li_news"></span>
+					  			<a href = "Profile.aspx?ID=69986"><h3>Profile</h3></a>
+                  			</div>
+					  			<p>Profile id : 69986</p>
+                  		</div>
+                  		<div class="col-md-2 col-sm-2 box0">
+                  			<div class="box1">
+					  			<span class="li_cloud"></span>
+					  			<a href = "Communication-View.aspx?ProfileId=69986"><h3>Send Interest</h3></a>
+                  			</div>
+					  			<p>Let this person know you like them.</p>
+                  		</div>
+                  	
+
+
+
+
+
+                  	</div><!-- /row mt -->	
+                  
+                      
+                                          
+                  <div class="row mtbox">
+                      <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                        <div class="white-header">
+                    <h5>Allu Maheshwari</h5>
+                            </div>
+                        <div class="box1">
+                  <span class="li_heart"></span>
+                  <a href = "#"><h3>Status</h3></a>
+                        </div>
+                  <p>Unmarried</p>
+                      </div>                    
+                      
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = ""><h3>Details</h3></a>
+                        </div>
+                  <p>Age : 26 <br/>Height : 6'<br/> Manglik : Yes <br/> Education : MBA <br/>Hometown : Delhi <br/> </p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_stack"></span>
+                  <a href = ""><h3>Last Online</h3></a>
+                        </div>
+                  <p>2 December, 2015</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_news"></span>
+                  <a href = "Profile.aspx?ID=69986"><h3>Profile</h3></a>
+                        </div>
+                  <p>Profile id : 69986</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = "Communication-View.aspx?ProfileId=69986"><h3>Send Interest</h3></a>
+                        </div>
+                  <p>Let this person know you like them.</p>
+                      </div>
+                    </div>  				
+					
+					
+          <div class="row mtbox">
+                      <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                        <div class="white-header">
+                    <h5>Nimish Maheshwari</h5>
+                            </div>
+                        <div class="box1">
+                  <span class="li_heart"></span>
+                  <a href = "#"><h3>Status</h3></a>
+                        </div>
+                  <p>Unmarried</p>
+                      </div>                    
+                      
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = ""><h3>Details</h3></a>
+                        </div>
+                  <p>Age : 26 <br/>Height : 6'<br/> Manglik : Yes <br/> Education : MBA <br/>Hometown : Delhi <br/> </p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_stack"></span>
+                  <a href = ""><h3>Last Online</h3></a>
+                        </div>
+                  <p>2 December, 2015</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_news"></span>
+                  <a href = "Profile.aspx?ID=69986"><h3>Profile</h3></a>
+                        </div>
+                  <p>Profile id : 69986</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = "Communication-View.aspx?ProfileId=69986"><h3>Send Interest</h3></a>
+                        </div>
+                  <p>Let this person know you like them.</p>
+                      </div>
+                    
+
+                      
+
+
+                    
+                    </div>
+
+                    <div class="row mtbox">
+                      <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                        <div class="white-header">
+                    <h5>Ajay Innani</h5>
+                            </div>
+                        <div class="box1">
+                  <span class="li_heart"></span>
+                  <a href = "#"><h3>Status</h3></a>
+                        </div>
+                  <p>Unmarried</p>
+                      </div>                    
+                      
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = ""><h3>Details</h3></a>
+                        </div>
+                  <p>Age : 26 <br/>Height : 6'<br/> Manglik : Yes <br/> Education : MBA <br/>Hometown : Delhi <br/> </p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_stack"></span>
+                  <a href = ""><h3>Last Online</h3></a>
+                        </div>
+                  <p>2 December, 2015</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_news"></span>
+                  <a href = "Profile.aspx?ID=69986"><h3>Profile</h3></a>
+                        </div>
+                  <p>Profile id : 69986</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = "Communication-View.aspx?ProfileId=69986"><h3>Send Interest</h3></a>
+                        </div>
+                  <p>Let this person know you like them.</p>
+                      </div>
+                    
+
+                      
+
+
+                    
+                    </div>
+
+                    <div class="row mtbox">
+                      <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                        <div class="white-header">
+                    <h5>Harshada Navandar</h5>
+                            </div>
+                        <div class="box1">
+                  <span class="li_heart"></span>
+                  <a href = "#"><h3>Status</h3></a>
+                        </div>
+                  <p>Unmarried</p>
+                      </div>                    
+                      
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = ""><h3>Details</h3></a>
+                        </div>
+                  <p>Age : 26 <br/>Height : 6'<br/> Manglik : Yes <br/> Education : MBA <br/>Hometown : Delhi <br/> </p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_stack"></span>
+                  <a href = ""><h3>Last Online</h3></a>
+                        </div>
+                  <p>2 December, 2015</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_news"></span>
+                  <a href = "Profile.aspx?ID=69986"><h3>Profile</h3></a>
+                        </div>
+                  <p>Profile id : 69986</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = "Communication-View.aspx?ProfileId=69986"><h3>Send Interest</h3></a>
+                        </div>
+                  <p>Let this person know you like them.</p>
+                      </div>
+                    
+
+                      
+
+
+                    
+                    </div>
+
+                    <div class="row mtbox">
+                      <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                        <div class="white-header">
+                    <h5>Nikhil Boob</h5>
+                            </div>
+                        <div class="box1">
+                  <span class="li_heart"></span>
+                  <a href = "#"><h3>Status</h3></a>
+                        </div>
+                  <p>Unmarried</p>
+                      </div>                    
+                      
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = ""><h3>Details</h3></a>
+                        </div>
+                  <p>Age : 26 <br/>Height : 6'<br/> Manglik : Yes <br/> Education : MBA <br/>Hometown : Delhi <br/> </p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_stack"></span>
+                  <a href = ""><h3>Last Online</h3></a>
+                        </div>
+                  <p>2 December, 2015</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_news"></span>
+                  <a href = "Profile.aspx?ID=69986"><h3>Profile</h3></a>
+                        </div>
+                  <p>Profile id : 69986</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = "Communication-View.aspx?ProfileId=69986"><h3>Send Interest</h3></a>
+                        </div>
+                  <p>Let this person know you like them.</p>
+                      </div>
+                    
+
+                      
+
+
+                    
+                    </div>
+                    <div class="row mtbox">
+                      <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                        <div class="white-header">
+                    <h5>Raj Maheshwar</h5>
+                            </div>
+                        <div class="box1">
+                  <span class="li_heart"></span>
+                  <a href = "#"><h3>Status</h3></a>
+                        </div>
+                  <p>Unmarried</p>
+                      </div>                    
+                      
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = ""><h3>Details</h3></a>
+                        </div>
+                  <p>Age : 26 <br/>Height : 6'<br/> Manglik : Yes <br/> Education : MBA <br/>Hometown : Delhi <br/> </p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_stack"></span>
+                  <a href = ""><h3>Last Online</h3></a>
+                        </div>
+                  <p>2 December, 2015</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_news"></span>
+                  <a href = "Profile.aspx?ID=69986"><h3>Profile</h3></a>
+                        </div>
+                  <p>Profile id : 69986</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = "Communication-View.aspx?ProfileId=69986"><h3>Send Interest</h3></a>
+                        </div>
+                  <p>Let this person know you like them.</p>
+                      </div>
+                    
+
+                      
+
+
+                    
+                    </div>
+                    <div class="row mtbox">
+                      <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                        <div class="white-header">
+                    <h5>Nitesh Dammani</h5>
+                            </div>
+                        <div class="box1">
+                  <span class="li_heart"></span>
+                  <a href = "#"><h3>Status</h3></a>
+                        </div>
+                  <p>Unmarried</p>
+                      </div>                    
+                      
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = ""><h3>Details</h3></a>
+                        </div>
+                  <p>Age : 26 <br/>Height : 6'<br/> Manglik : Yes <br/> Education : MBA <br/>Hometown : Delhi <br/> </p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_stack"></span>
+                  <a href = ""><h3>Last Online</h3></a>
+                        </div>
+                  <p>2 December, 2015</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_news"></span>
+                  <a href = "Profile.aspx?ID=69986"><h3>Profile</h3></a>
+                        </div>
+                  <p>Profile id : 69986</p>
+                      </div>
+                      <div class="col-md-2 col-sm-2 box0">
+                        <div class="box1">
+                  <span class="li_cloud"></span>
+                  <a href = "Communication-View.aspx?ProfileId=69986"><h3>Send Interest</h3></a>
+                        </div>
+                  <p>Let this person know you like them.</p>
+                      </div>
+                    
+
+                      
+
+
+                    
+                    </div>
+
+                  </div><!-- /col-lg-9 END SECTION MIDDLE -->
+
+                  
+                  
+      <!-- **********************************************************************************************************************************************************
+      RIGHT SIDEBAR CONTENT
+      *********************************************************************************************************************************************************** -->                  
+                  
+                  <div class="col-lg-3 ds">
+                    <!--COMPLETED ACTIONS DONUTS CHART-->
+						<h3>Refine Search Results</h3>
+                                        
+  <form>
+                    <br />
+                    <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Gender</h4>
+                    <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Male
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Female
+              </label>
+            </div>
+            </div>
+                        
+                     <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Age</h4> <i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+                            <div class="table-cell expand-selection collapsed-sub-box">
+                                <select class="siblings" id="min_age" name="min_age">
+                                    <option selected value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                    <option value="32">32</option>
+                                    <option value="33">33</option>
+                                    <option value="34">34</option>
+                                    <option value="35">35</option>
+                                    <option value="36">36</option>
+                                    <option value="37">37</option>
+                                    <option value="38">38</option>
+                                    <option value="39">39</option>
+                                    <option value="40">40</option>
+                                    <option value="41">41</option>
+                                    <option value="42">42</option>
+                                    <option value="43">43</option>
+                                    <option value="44">44</option>
+                                    <option value="45">45</option>
+                                    <option value="46">46</option>
+                                    <option value="47">47</option>
+                                    <option value="48">48</option>
+                                    <option value="49">49</option>
+                                    <option value="50">50</option>
+                                </select>
+                                To 
+               <select class="siblings" id="max_age" name="max_age">
+                                 <option selected value="18">18</option>
+                                 <option value="19">19</option>
+                                 <option value="20">20</option>
+                                 <option value="21">21</option>
+                                 <option value="22">22</option>
+                                 <option value="23">23</option>
+                                 <option value="24">24</option>
+                                 <option value="25">25</option>
+                                 <option value="26">26</option>
+                                 <option value="27">27</option>
+                                 <option value="28">28</option>
+                                 <option value="29">29</option>
+                                 <option value="30">30</option>
+                                 <option value="31">31</option>
+                                 <option value="32">32</option>
+                                 <option value="33">33</option>
+                                 <option value="34">34</option>
+                                 <option value="35">35</option>
+                                 <option value="36">36</option>
+                                 <option value="37">37</option>
+                                 <option value="38">38</option>
+                                 <option value="39">39</option>
+                                 <option value="40">40</option>
+                                 <option value="41">41</option>
+                                 <option value="42">42</option>
+                                 <option value="43">43</option>
+                                 <option value="44">44</option>
+                                 <option value="45">45</option>
+                                 <option value="46">46</option>
+                                 <option value="47">47</option>
+                                 <option value="48">48</option>
+                                 <option value="49">49</option>
+                                 <option value="50">50</option>
+                             </select>
+                            </div>
+                        </div>
+                    <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Manglik</h4>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                Yes
+              </label>
+
+              <label>
+                <input type="checkbox" value="">
+                No
+              </label>
+
+              <label>
+                <input type="checkbox" value="">
+                Doesn't matter
+              </label>
+            </div>
+                                
+                                
+                            </div>
+                        <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Height</h4>
+                            <div class="table-cell expand-selection collapsed-sub-box">
+                                <select class="siblings" name="minHeight" id="minHeight">
+                                    <option value="137">4' 6&quot;, 137 cm</option>
+                                    <option value="140">4' 7&quot;, 140 cm</option>
+                                    <option value="142">4' 8&quot;, 142 cm</option>
+                                    <option value="145">4' 9&quot;, 145 cm</option>
+                                    <option value="147">4' 10&quot;, 147 cm</option>
+                                    <option value="150">4' 11&quot;, 150 cm</option>
+                                    <option value="152">5',152 cm</option>
+                                    <option value="155">5'1&quot;, 155 cm</option>
+                                    <option value="157" selected>5' 2&quot;, 157 cm</option>
+                                    <option value="160">5' 3&quot;, 160 cm</option>
+                                    <option value="163">5' 4&quot;, 163 cm</option>
+                                    <option value="165">5' 5&quot;, 165 cm</option>
+                                    <option value="168">5' 6&quot;, 168 cm</option>
+                                    <option value="170">5' 7&quot;, 170 cm</option>
+                                    <option value="173">5' 8&quot;, 173 cm</option>
+                                    <option value="175">5' 9&quot;, 175 cm</option>
+                                    <option value="178">5' 10&quot;, 178 cm</option>
+                                    <option value="180">5' 11&quot;, 180 cm</option>
+                                    <option value="183">6', 183 cm</option>
+                                    <option value="185">6' 1&quot;, 185 cm</option>
+                                    <option value="188">6' 2&quot;, 188 cm</option>
+                                    <option value="191">6' 3&quot;, 191 cm</option>
+                                    <option value="193">6' 4&quot;, 193 cm</option>
+                                    <option value="196">6' 5&quot;, 196 cm</option>
+                                    <option value="198">6' 6&quot;, 198 cm</option>
+                                    <option value="201">6' 7&quot;, 201 cm</option>
+                                    <option value="203">6' 8&quot;, 203 cm</option>
+                                    <option value="206">6' 9&quot;, 206 cm</option>
+                                    <option value="208">6' 10&quot;, 208 cm</option>
+                                    <option value="211">6' 11&quot;, 211 cm</option>
+                                    <option value="213">7'+, 213 cm+</option>
+                                </select>
+                                To
+                <select class="siblings" name="maxHeight" id="maxHeight">
+                                    <option value="137">4' 6&quot;, 137 cm</option>
+                                    <option value="140">4' 7&quot;, 140 cm</option>
+                                    <option value="142">4' 8&quot;, 142 cm</option>
+                                    <option value="145">4' 9&quot;, 145 cm</option>
+                                    <option value="147">4' 10&quot;, 147 cm</option>
+                                    <option value="150">4' 11&quot;, 150 cm</option>
+                                    <option value="152">5',152 cm</option>
+                                    <option value="155">5'1&quot;, 155 cm</option>
+                                    <option value="157" selected>5' 2&quot;, 157 cm</option>
+                                    <option value="160">5' 3&quot;, 160 cm</option>
+                                    <option value="163">5' 4&quot;, 163 cm</option>
+                                    <option value="165">5' 5&quot;, 165 cm</option>
+                                    <option value="168">5' 6&quot;, 168 cm</option>
+                                    <option value="170">5' 7&quot;, 170 cm</option>
+                                    <option value="173">5' 8&quot;, 173 cm</option>
+                                    <option value="175">5' 9&quot;, 175 cm</option>
+                                    <option value="178">5' 10&quot;, 178 cm</option>
+                                    <option value="180">5' 11&quot;, 180 cm</option>
+                                    <option value="183">6', 183 cm</option>
+                                    <option value="185">6' 1&quot;, 185 cm</option>
+                                    <option value="188">6' 2&quot;, 188 cm</option>
+                                    <option value="191">6' 3&quot;, 191 cm</option>
+                                    <option value="193">6' 4&quot;, 193 cm</option>
+                                    <option value="196">6' 5&quot;, 196 cm</option>
+                                    <option value="198">6' 6&quot;, 198 cm</option>
+                                    <option value="201">6' 7&quot;, 201 cm</option>
+                                    <option value="203">6' 8&quot;, 203 cm</option>
+                                    <option value="206">6' 9&quot;, 206 cm</option>
+                                    <option value="208">6' 10&quot;, 208 cm</option>
+                                    <option value="211">6' 11&quot;, 211 cm</option>
+                                    <option value="213">7'+, 213 cm+</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                       <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Education</h4> <i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+                            <div class="table-cell expand-selection collapsed-sub-box">
+                                        <select multiple class="form-control">
+              <option>Doesn't matter</option>
+              <option>Nil</option>
+              <option>M.B.A, M.C.A &amp; Equivalent</option>
+              <option>C .A , C.S,&nbsp; ICWAI</option>
+              <option>Doctor</option>
+              <option>Eng., I.I.T., Diploma Equivalent</option>
+              <option>Graduate &amp; Post Graduate</option>
+              <option>Under Graduate</option>
+            </select> 
+                            </div>
+                        </div>
+                       <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i>Body Type</h4><i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+                            <div class="table-cell expand-selection collapsed-sub-box">
+                                <div class="scroll-choice">
+
+                                    <input type="checkbox" name="BodyType" value="All"> Doesn't Matter</input><br />
+                                    <input type="checkbox" name="BodyType" value="Slim"> Slim</input><br />
+                                    <input type="checkbox" name="BodyType" value="Average"> Average</input><br />
+                                    <input type="checkbox" name="BodyType" value="Athletic"> Athletic</input><br />
+                                    <input type="checkbox" name="BodyType" value="Heavy"> Heavy</input><br />
+                                </div>
+                            </div>
+                        </div>
+            <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Country</h4><i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+<select multiple class="form-control">
+              <option>India</option>
+              <option>NRI</option>
+              <option>Doesn't matter</option>
+              <option>US</option>
+              <option>UK</option>
+               <option>Argentina</option>
+                <option>Austria</option>
+            </select> 
+                             
+                            </div>
+                        </div>
+                        </div>
+
+   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> State/UCT</h4><i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+<select multiple class="form-control">
+              <option>Doesn't matter</option>
+              <option>Delhi</option>
+              <option>Andhra Pradesh</option>
+              <option>Arunanchal Pradesh</option>
+              <option>Assam</option>
+              <option>Bihar</option>
+              <option>Chandigarh</option>
+            </select> 
+                             
+                            </div>
+                        </div>
+                        </div>
+                   <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Annual Income</h4><i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+                         <select multiple class="form-control">
+              <option>Doesn't matter</option>
+              <option>Nil</option>
+              <option>Less than 1 lakh</option>
+              <option>1 lakh-3 lakh</option>
+              <option>3 lakh-5 lakh</option>
+              <option>5 lakh-10 lakh</option>
+              <option>10 lakh-20 lakh</option>
+              <option>> than 20 lakh</option>
+            </select> 
+                            </div>
+                        <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Status of the family</h4><i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+                            <div class="table-cell expand-selection collapsed-sub-box">
+                                <div class="scroll-choice">
+
+                                    <input type="checkbox"  name="fstatus" value="All"> Doesn't Matter</input><br />
+                                    <input type="checkbox"  name="fstatus" value="General"> General</input><br />
+                                    <input type="checkbox"  name="fstatus" value="Middle_Standard"> Middle Standard</input><br />
+                                    <input type="checkbox"  name="fstatus" value="Above_Middle_Class"> Above Middle Class</input><br />
+                                    <input type="checkbox"  name="fstatus" value="Higher_Standard"> Higher Standard</input><br />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Occupational Status</h4><i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+                            <div class="table-cell expand-selection collapsed-sub-box">
+                                <div class="scroll-choice">
+
+                                    <input type="checkbox"  name="ostatus" value="All"> Doesn't Matter</input><br />
+                                    <input type="checkbox"  name="ostatus" value="Service"> Service</input><br />
+                                    <input type="checkbox"  name="ostatus" value="Profession"> Profession</input><br />
+                                    <input type="checkbox"  name="ostatus" value="Business"> Business</input><br />
+                                    <input type="checkbox"  name="ostatus" value="None"> None</input><br />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Marital Status</h4><i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+                            <div class="table-cell expand-selection collapsed-sub-box">
+                                <div class="scroll-choice">
+
+                                    <input type="checkbox"  name="mstatus" value="All"> Doesn't Matter</input><br />
+                                    <input type="checkbox"  name="mstatus" value="Unmarried"> Unmarried</input><br />
+                                    <input type="checkbox"  name="mstatus" value="Widower"> Widower/Widow</input><br />
+                                    <input type="checkbox"  name="mstatus" value="Divorcee"> Divorcee</input><br />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Having Children</h4><i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+                            <div class="table-cell expand-selection collapsed-sub-box">
+                                <div class="scroll-choice">
+
+                                    <input type="checkbox"  name="Child" value="All"> Doesn't Matter</input><br />
+                                    <input type="checkbox"  name="Child" value="No"> No</input><br />
+                                    <input type="checkbox"  name="Child" value="Yes"> Yes</input><br />
+                                </div>
+                            </div>
+                        </div>
+                        
+                 
+                       <div class="table-box" >
+                       
+                   <div class="row mt">
+              <div class="col-lg-12">
+                <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Differently abled</h4><i class="flaticon-uparrows15 btn-expand" data-angle="0"></i>
+                            <div class="table-cell expand-selection collapsed-sub-box">
+                                <input type="radio" value="No"  name="rpersonal" checked> Skip</input><br />
+                                <input type="radio" value="Yes" name="rpersonal"> Show</input><br />
+                                <input type="radio" value="All" name="rpersonal"> Show all</input><br />
+                            </div>
+                        </div>
+                        
+                    <div class="submit-reset" >
+                    <button type = "submit" class = "btn btn-theme" style = "margin-right:-0px" value = "submit" obclick = "submit()" id="ctl00_Content_submit">Submit</button>
+                      
+                    </div>
+                </form>
+  
+</div>
+</div>
+      <!--main content end-->
+      <!--footer start-->
+      
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery-1.8.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.sparkline.js"></script>
+
+
+    <!--common script for all pages-->
+    <script src="assets/js/common-scripts.js"></script>
+    
+    <script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>
+    <script type="text/javascript" src="assets/js/gritter-conf.js"></script>
+
+    <!--script for this page-->
+    <script src="assets/js/sparkline-chart.js"></script>    
+	<script src="assets/js/zabuto_calendar.js"></script>	
+	
+	<script type="text/javascrip">	
+	<script type="application/javascript">
+        $(document).ready(function () {
+            $("#date-popover").popover({html: true, trigger: "manual"});
+            $("#date-popover").hide();
+            $("#date-popover").click(function (e) {
+                $(this).hide();
+            });
+        
+            $("#my-calendar").zabuto_calendar({
+                action: function () {
+                    return myDateFunction(this.id, false);
+                },
+                action_nav: function () {
+                    return myNavFunction(this.id);
+                },
+                ajax: {
+                    url: "show_data.php?action=1",
+                    modal: true
+                },
+                legend: [
+                    {type: "text", label: "Special event", badge: "00"},
+                    {type: "block", label: "Regular event", }
+                ]
+            });
+        });
+        
+        
+        function myNavFunction(id) {
+            $("#date-popover").hide();
+            var nav = $("#" + id).data("navigation");
+            var to = $("#" + id).data("to");
+            console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
+        }
+    </script>
+  
+
+  </body>
+</html>
